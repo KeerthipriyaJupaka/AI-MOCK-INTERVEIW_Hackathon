@@ -1,36 +1,29 @@
+
+=======
+# AI-MOCK-INTERVEIW_Hackathon
+Built with Streamlit and Python, this platform enables resume-based mock interviews, job description matching, voice-assisted questions, and interview practice.
+demo video url : https://drive.google.com/file/d/1tH35MOptQQpLizsCLy4ELQSnXWt1h5LM/view?usp=sharing
+
 # AI Mock Interview Platform
 
-## Problem Statement
-
-AI-powered mock interview system that:
-
-- Analyzes resume
-- Accepts job description
-- Generates interview questions
-- Evaluates candidate responses
-- Provides readiness score and feedback
-
-## Features
-
-✅ Resume Analysis
-
-✅ JD Matching
-
-✅ Technical & Behavioral Questions
-
-✅ AI Answer Evaluation
-
-✅ Readiness Score
+## Features 
+- Resume Upload
+- Job Description Input
+- Interview Question Generation
+- Voice Question Reading
+- Answer Submission
 
 ## Tech Stack
-
 - Python
 - Streamlit
-- OpenAI API
 - PyPDF
+- pyttsx3
 
-## Installation
+## Run
 
-```bash
 pip install -r requirements.txt
 streamlit run app.py
+
+## Demo Video
+https://drive.google.com/file/d/1tH35MOptQQpLizsCLy4ELQSnXWt1h5LM/view?usp=sharing
+
